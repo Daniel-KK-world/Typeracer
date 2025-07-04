@@ -14,7 +14,7 @@ AI_X = 100
 FONT_SIZE = 24
 BG_COLOR = (50, 50, 80)
 TRACK_COLOR = (30, 30, 50)
-CAR_WIDTH, CAR_HEIGHT = 60, 30
+CAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size
 
 # Colors
 WHITE = (255, 255, 255)
@@ -32,17 +32,34 @@ word_list = ["speed", "race", "typing", "keyboard", "python", "code", "fast", "w
 
 
 class Car:
-    def __init__(self, x, y, color):
+    def __init__(self, x, y, is_player=True):
         self.x = x
         self.y = y
-        self.color = color
+        self.is_player = is_player
+        
+        # Load car image
+        if is_player:
+            self.image = pygame.image.load("car1.png").convert_alpha()
+        else:
+            self.image = pygame.image.load("car2.png").convert_alpha()
+            
+        # Scale the image if needed (optional)
+        self.image = pygame.transform.scale(self.image, (CAR_WIDTH, CAR_HEIGHT))
+        
+        # Get the actual dimensions from the image
+        self.rect = self.image.get_rect()
+        self.width = self.rect.width
+        self.height = self.rect.height
+        
         self.speed = 0
         self.max_speed = 5
         self.current_word = ""
         self.typed_so_far = ""
 
     def draw(self, screen):
-        pygame.draw.rect(screen, self.color, (self.x, self.y, CAR_WIDTH, CAR_HEIGHT))
+        # Draw the car image
+        screen.blit(self.image, (self.x, self.y))
+        
         # Draw word above car
         word_text = font.render(self.current_word, True, WHITE)
         screen.blit(word_text, (self.x, self.y - 30))
@@ -62,8 +79,8 @@ class Car:
 
 class Game:
     def __init__(self):
-        self.player = Car(PLAYER_X, 150, BLUE)
-        self.ai = Car(AI_X, 250, RED)
+        self.player = Car(PLAYER_X, 150, True)  # Player car
+        self.ai = Car(AI_X, 250, False)        # AI car
         self.player.assign_new_word()
         self.ai.assign_new_word()
         self.game_over = False
@@ -127,10 +144,10 @@ def main():
         game.ai.update()
 
         # Check race finish
-        if game.player.x >= WIDTH - CAR_WIDTH:
+        if game.player.x >= WIDTH - game.player.width:
             game.game_over = True
             game.winner = "PLAYER"
-        elif game.ai.x >= WIDTH - CAR_WIDTH:
+        elif game.ai.x >= WIDTH - game.ai.width:
             game.game_over = True
             game.winner = "AI"
 
