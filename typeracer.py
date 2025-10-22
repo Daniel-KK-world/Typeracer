@@ -14,7 +14,7 @@ AI_X = 100
 FONT_SIZE = 24
 BG_COLOR = (50, 50, 80)
 TRACK_COLOR = (30, 30, 50)
-CAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size
+CAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions
 
 # Colors
 WHITE = (255, 255, 255)
@@ -27,7 +27,7 @@ YELLOW = (255, 255, 0)
 font = pygame.font.SysFont("Arial", FONT_SIZE)
 font_large = pygame.font.SysFont("Arial", 36)
 
-# Word list (adjust difficulty)
+# Word list 
 word_list = ["speed", "race", "typing", "keyboard", "python", "code", "fast", "win", "car", "lap"]
 
 
@@ -43,7 +43,7 @@ class Car:
         else:
             self.image = pygame.image.load("car2.png").convert_alpha()
             
-        # Scale the image if needed (optional)
+        # Scale the image if needed 
         self.image = pygame.transform.scale(self.image, (CAR_WIDTH, CAR_HEIGHT))
         
         # Get the actual dimensions from the image

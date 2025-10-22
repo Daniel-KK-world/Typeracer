@@ -58,7 +58,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "TRACK_HEIGHT = 300\nLANE_WIDTH = 200\nPLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)",
+        "peekOfCode": "TRACK_HEIGHT = 300\nLANE_WIDTH = 200\nPLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -67,7 +67,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "LANE_WIDTH = 200\nPLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)",
+        "peekOfCode": "LANE_WIDTH = 200\nPLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -76,7 +76,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "PLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)",
+        "peekOfCode": "PLAYER_X = 100\nAI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -85,7 +85,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "AI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)",
+        "peekOfCode": "AI_X = 100\nFONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -94,7 +94,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "FONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)",
+        "peekOfCode": "FONT_SIZE = 24\nBG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -103,7 +103,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "BG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts",
+        "peekOfCode": "BG_COLOR = (50, 50, 80)\nTRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -112,7 +112,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "TRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # These will be updated based on the actual image size\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)",
+        "peekOfCode": "TRACK_COLOR = (30, 30, 50)\nCAR_WIDTH, CAR_HEIGHT = 60, 30  # based on actual image dimensions\n# Colors\nWHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -121,7 +121,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "WHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]",
+        "peekOfCode": "WHITE = (255, 255, 255)\nGREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -130,7 +130,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "GREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:",
+        "peekOfCode": "GREEN = (0, 255, 0)\nRED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -139,7 +139,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "RED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):",
+        "peekOfCode": "RED = (255, 0, 0)\nBLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -148,7 +148,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "BLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x",
+        "peekOfCode": "BLUE = (0, 100, 255)\nYELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -157,7 +157,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "YELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y",
+        "peekOfCode": "YELLOW = (255, 255, 0)\n# Fonts\nfont = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -166,7 +166,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "font = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y\n        self.is_player = is_player\n        # Load car image",
+        "peekOfCode": "font = pygame.font.SysFont(\"Arial\", FONT_SIZE)\nfont_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y\n        self.is_player = is_player\n        # Load car image",
         "detail": "typeracer",
         "documentation": {}
     },
@@ -175,7 +175,7 @@
         "kind": 5,
         "importPath": "typeracer",
         "description": "typeracer",
-        "peekOfCode": "font_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list (adjust difficulty)\nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y\n        self.is_player = is_player\n        # Load car image\n        if is_player:",
+        "peekOfCode": "font_large = pygame.font.SysFont(\"Arial\", 36)\n# Word list \nword_list = [\"speed\", \"race\", \"typing\", \"keyboard\", \"python\", \"code\", \"fast\", \"win\", \"car\", \"lap\"]\nclass Car:\n    def __init__(self, x, y, is_player=True):\n        self.x = x\n        self.y = y\n        self.is_player = is_player\n        # Load car image\n        if is_player:",
         "detail": "typeracer",
         "documentation": {}
     },
